@@ -3,8 +3,8 @@ Binary Number Converter
 
 ##Authors:
 
-[Christian Danielsen](https://github.com/cdanielsen)
-[Andrew Westling](https://github.com/expandrew)
+*[Christian Danielsen](https://github.com/cdanielsen)
+*[Andrew Westling](https://github.com/expandrew)
 
 ##7/28/2014
 
