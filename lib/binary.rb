@@ -83,6 +83,17 @@ end
 
 
 def any_base input, base
+
+  input.downcase!
+
+  letters = { 10 => "a",
+              11 => "b",
+              12 => "c",
+              13 => "d",
+              14 => "e",
+              15 => "f"
+            }
+
   str_arr = input.reverse!.split('')
   output = 0
 
@@ -90,6 +101,9 @@ def any_base input, base
     1.upto(base-1) do |j|
       if str_arr[i] == j.to_s
         output += j*base**i
+      elsif letters.has_value?(str_arr[i])
+        output += letters.key(str_arr[i])*base**i
+        break
       end
     end
   end

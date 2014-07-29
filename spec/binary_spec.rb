@@ -13,5 +13,9 @@ describe("binary") do
   it("converts a given string of hexadecimal into its corresponding decimal value") do
     expect(hex('10')).to eq(16)
   end
+
+  it("converts a given string of hexadecimal into its corresponding decimal value") do
+    expect(any_base('1f',16)).to eq(31)
+  end
 end
 
